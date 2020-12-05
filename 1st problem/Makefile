@@ -1,5 +1,5 @@
 all:
-	flex lexer_html.l
+	flex lexer.l
 	g++ lex.yy.c -o html.out
 clear:
 	rm -rf lex.yy.c
